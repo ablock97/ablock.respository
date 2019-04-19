@@ -1,0 +1,23 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "app.js",
+  "scripts": {
+    "test": "break"
+  },
+  "repository": {
+    "type": "git",
+    "url": "brackets"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Andrew Block",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "save": "^2.3.3"
+  }
+}
