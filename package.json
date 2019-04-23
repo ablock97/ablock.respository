@@ -1,23 +1,23 @@
 {
-  "name": "app.js",
-  "version": "1.0.0",
-  "description": "first project",
-  "main": "app.js",
+  "name": "express-locallibrary-tutorial",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "break"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "brackets"
-  },
-  "keywords": [
-    "project"
-  ],
-  "author": "Andrew Block",
-  "license": "MIT",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "save": "^2.3.3"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
+"scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
