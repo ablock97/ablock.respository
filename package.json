@@ -1,31 +1,12 @@
 {
-  "name": "your-first-pwapp",
-  "version": "2.0.0",
-  "description": "Codelab for Your First PWAPP",
-  "homepage": "https://codelabs.developers.google.com/codelabs/your-first-pwapp/",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-http-to-https": "^1.1.4",
-    "node-fetch": "^2.3.0"
+    "start": "prpl-server --root build/ --host 0.0.0.0 --https-redirect --bot-proxy https://render-tron.appspot.com/render"
   },
   "engines": {
-    "node": "8.x"
+    "node": "8.x.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/googlecodelabs/your-first-pwapp.git"
-  },
-  "bugs": {
-    "url": "https://github.com/googlecodelabs/your-first-pwapp/issues"
-  },
-  "license": "Apache2",
-  "keywords": [
-    "progressive-web-app",
-    "pwa",
-    "installable web app"
-  ]
+  "dependencies": {
+    "prpl-server": "^1.4.0"
+  }
 }
