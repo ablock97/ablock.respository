@@ -1,31 +1,28 @@
 {
-  "name": "your-first-pwapp",
-  "version": "2.0.0",
-  "description": "Codelab for Your First PWAPP",
-  "homepage": "https://codelabs.developers.google.com/codelabs/your-first-pwapp/",
-  "main": "server.js",
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "develop": "gatsby develop --host=0.0.0.0 --port=3000",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "express": "^4.16.4",
-    "express-http-to-https": "^1.1.4",
-    "node-fetch": "^2.3.0"
-  },
-  "engines": {
-    "node": "8.x"
+    "gatsby": "^2.0.76",
+    "gatsby-source-darksky": "^1.2.0",
+    "gatsby-source-openweathermap": "^1.0.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/your-first-pwapp.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "bugs": {
-    "url": "https://github.com/googlecodelabs/your-first-pwapp/issues"
-  },
-  "license": "Apache2",
-  "keywords": [
-    "progressive-web-app",
-    "pwa",
-    "installable web app"
-  ]
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
