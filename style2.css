@@ -1,0 +1,133 @@
+
+@font-face {font-family: baseball;
+            src: url(Playball.ttf);}
+
+body {background-color: black;
+      background-image: url(images/manifest/baseballs22.png);
+      background-repeat:no-repeat;
+      background-size: cover;}
+
+h1 {color: white;
+    font-family: baseball;}
+    
+h3 {color: white;}
+
+h5 {color: lightyellow;}
+
+
+#ALEast {float: left;}
+
+#NLEast {padding-left: 175px;
+         float: left;}
+
+#ALCentral {float: left;}
+
+#NLCentral {padding-left: 175px;
+            float: left;}
+
+#ALWest {float: left}
+
+#NLWest {padding-left: 175px;
+          float: left;}
+
+
+p {color: #e8e8ac;}
+
+div#main {position: static;
+          box-sizing: border-box;
+          width: 1000px;
+          height: 950px;
+          background-color: #2727a5;
+          margin-left: auto;
+          margin-right: auto;}
+
+header {position: static;
+        box-sizing: border-box;
+        width: 1000px;
+        height: 150px;
+        background-color: darkblue;
+        background-image: url(images/manifest/field.jpg);}
+
+nav {position: static;
+     box-sizing: border-box;
+     width: 1000px;
+     height: 60px;
+     padding-top: 5px;
+     background-color: #5175c4;
+     text-align: center;}
+
+aside#left {position: static;
+            box-sizing: border-box;
+            float: left;
+            width: 200px;
+            height: 650px;
+            background-color: #2727a5;
+            background-image: url(images/manifest/batterleft.jpg);
+            background-repeat: no-repeat;}
+
+article {position: static;
+        box-sizing: border-box;
+        float: left;
+        width: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 650px;
+        background-color: darkred;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: arial;
+        overflow: auto;
+        text-align: justify;}
+
+aside#right {position: static;
+             box-sizing: border-box;
+             float: left;
+             background-color: #2727a5;
+             background-image: url(images/manifest/batterright.jpg);
+             height: 650px;
+             width: 200px;}
+
+footer {position: static;
+        box-sizing: border-box;
+        clear: both; /* use this to NOT float */
+        width: 1000px;
+        height: 120px;
+        background-color: #5175c4;
+        color: white;
+        font-size: 12px;
+        font-family: arial;
+        text-align: center;}
+
+
+nav a {font-family: arial;
+       font-size: 24px;
+       text-decoration: none;
+       font-weight: bold;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       padding-left: 10px;
+       padding-right: 10px;
+       border-radius: 20px;
+       display: inline-block;}
+
+nav a:link {color: lightyellow;
+            background-color: darkred;
+            border: 1px solid navy;
+            box-shadow: 4px 4px 0px navy;}
+
+nav a:visited {color: lightyellow;
+               background-color: darkred;
+               border: 1px solid navy;
+               box-shadow: 4px 4px 0px navy;}
+
+nav a:hover {color: yellow;
+             background-color: #55c5ff;
+             transform: translate(-2px, -2px);
+             box-shadow: 6px 6px 0px navy;}
+
+nav a:active {color: darkred;
+              background-color: #2929ea;
+              border: 1px solid navy;
+              transform: translate(2px, 2px);
+              box-shadow: 0px 0px 0px navy;}
+

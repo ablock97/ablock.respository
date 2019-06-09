@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8";>
+        <title>
+            Major League Baseball
+        </title>
+        
+        <link rel="stylesheet" href="style2.css">
+    
+        <script>
+            function submitQuiz() {
+                if (document.getElementById("isEight").checked) {
+                    document.getElementById("output").innerHTML = "Wrong Answer.";
+                    document.getElementById("output").style.color = "orange";
+                    }
+                else if (document.getElementById("isTen").checked) {
+                         document.getElementById("output").innerHTML = "Wrong Answer.";
+                         document.getElementById("output").style.color = "orange";
+                         }
+                else if (document.getElementById("isSix").checked) {
+                         document.getElementById("output").innerHTML = "Wrong Answer.";
+                         document.getElementById("output").style.color = "orange";
+                         }
+                else if (document.getElementById("isNine").checked) { 
+                       document.getElementById("output").innerHTML = "Correct Answer.";
+                       document.getElementById("output").style.color = "green";
+                       }  
+                    else {
+                        alert("You have to check one...");  
+                         }  
+            }
+            
+             function submitQuiz2() {
+                 if(document.getElementById("isSosa").checked) {
+                     document.getElementById("output2").innerHTML = "Wrong Answer.";
+                     document.getElementById("output2").style.color = "orange";
+                     }
+                 else if (document.getElementById("isMantle").checked) {
+                          document.getElementById("output2").innerHTML = "Wrong Answer.";
+                          document.getElementById("output2").style.color = "orange";
+                          }
+                 else if (document.getElementById("isRipken").checked) {
+                          document.getElementById("output2").innerHTML = "Wrong Answer.";
+                          document.getElementById("output2").style.color = "orange";
+                          }
+                 else if (document.getElementById("isRobinson").checked) {
+                          document.getElementById("output2").innerHTML = "Correct Answer.";
+                          document.getElementById("output2").style.color = "green";
+                          } 
+                 else { 
+                     alert("You have to check one..."); 
+                      }
+                 
+             }
+               function submitQuiz3() {
+                   if(document.getElementById("isRuth").checked) {
+                      document.getElementById("output3").innerHTML = "Wrong Answer.";
+                      document.getElementById("output3").style.color = "orange";
+                      }
+                   else if(document.getElementById("isPujols").checked) {
+                           document.getElementById("output3").innerHTML = "Wrong Answer.";
+                           document.getElementById("output3").style.color = "orange";
+                           }
+                   else if (document.getElementById("isJeter").checked) {
+                            document.getElementById("output3").innerHTML = "Wrong Answer.";
+                            document.getElementById("output3").style.color = "orange";
+                            }
+                   else if (document.getElementById("isBonds").checked) {
+                            document.getElementById("output3").innerHTML = "Correct Answer.";
+                            document.getElementById("output3").style.color = "green";
+                            }
+                   else {
+                       alert("You have to check one...");
+                        }
+               }
+                function submitQuiz4() {
+                    if(document.getElementById("isJeter2").checked) {
+                       document.getElementById("output4").innerHTML = "Wrong Answer.";
+                       document.getElementById("output4").style.color = "orange";
+                       }
+                    else if(document.getElementById("isBryant").checked) {
+                            document.getElementById("output4").innerHTML = "Wrong Answer.";
+                            document.getElementById("output4").style.color = "orange";
+                            }
+                    else if(document.getElementById("isRose").checked) {
+                            document.getElementById("output4").innerHTML = "Wrong Answer.";
+                            document.getElementById("output4").style.color = "orange";
+                            }
+                    else if(document.getElementById("isSuzuki").checked) {
+                            document.getElementById("output4").innerHTML = "Correct Answer.";
+                            document.getElementById("output4").style.color = "green";
+                            }
+                    else {
+                       alert("You have to check one...");
+                        }
+                }
+                
+                        
+        </script>
+    
+    
+    </head>
+    <body>
+        
+        <div id="main">
+        
+        <header></header>
+        
+        
+        <nav>
+        
+        <a href="index.html">
+        Home</a>
+        
+        <a href="MLBteams.html">
+        Teams</a>
+            
+        <a href="MLBhistory.html">
+        History</a>
+        
+        <a href="MLBsurvey.html">
+        Survey</a>
+        
+    \
+            
+        
+        </nav>
+        
+        <aside id="left"></aside>
+        
+        <article>
+        
+             <img src="images/manifest/teamslogo.png" alt="MLB logo" align="center" style=" margin-left: 150px; margin-top: 20px;">
+            
+            <h1 align="center" style="text-decoration: underline;">
+               How Much Do You Know About the MLB?
+            </h1>
+            
+            
+            <p>
+                How many positions are there in baseball?
+            </p>
+            
+            <input type="radio" name="answer" id="isEight">
+             Eight Positions 
+            
+            <br>
+            
+            <input type="radio" name="answer" id="isTen">
+             Ten Positions 
+            
+            <br>
+            
+            <input type="radio" name="answer" id="isNine">
+             Nine Positions 
+            
+            <br>
+            
+            <input type="radio" name="answer" id="isSix">
+             Six Positions 
+            
+            <p id="output"> </p>
+            
+            
+            <p>
+                Who was the first African American to play baseball in the MLB?
+            </p>
+            
+            <input type="radio" name="answer2" id="isRobinson">
+            Jackie Robinson
+            
+            <br>
+            
+            <input type="radio" name="answer2" id="isSosa">
+            Sammy Sosa
+            
+            <br>
+            
+            <input type="radio" name="answer2" id="isMantle">
+            Mickey Mantle
+            
+            <br>
+            
+            <input type="radio" name="answer2" id="isRipken"> 
+            Cal Ripken Jr.
+            
+            <p id="output2"> </p>
+            
+            
+            <p>
+                Who is the all-time home run leader in the MLB?
+            </p>
+            
+            <input type="radio" name="answer3" id="isRuth">
+            Babe Ruth
+            
+            <br>
+            
+            <input type="radio" name="answer3" id="isPujols">
+            Albert Pujols
+            
+            <br>
+            
+            <input type="radio" name="answer3" id="isBonds">
+            Barry Bonds
+            
+            <br>
+            
+            <input type="radio" name="answer3" id="isJeter">
+            Derek Jeter
+            
+            <p id="output3"> </p>
+            
+            <p>
+                Who holds the record of most hits in a MLB season?
+            </p>
+            
+            <input type="radio" name="answer4" id="isJeter2">
+            Derek Jeter
+            
+            <br>
+            
+            <input type="radio" name="answer4" id="isBryant">
+            Kris Bryant
+            
+            <br>
+            
+            <input type="radio" name="answer4" id="isSuzuki">
+            Ichiro Suzuki
+            
+            <br>
+            
+            <input type="radio" name="answer4" id="isRose">
+            Pete Rose
+            
+            <p id="output4"> </p>
+            
+            
+             <br>
+            
+            <input type="button" value="Submit Knowledge Quiz" onclick="submitQuiz(); submitQuiz2(); submitQuiz3(); submitQuiz4(); submitQuiz5();">
+            
+    </article>
+            
+        <aside id="right"> </aside>
+            
+        <footer> 
+            &copy; Copyright 2017 Trendy Wall Designs- All Rights Reserved.
+            <br>
+            &copy; Copyright 2016 by SouthBay Sports Training - All Rights Reserved.
+            <br>
+            &copy; Copyright 2017 Ashland Daily Photo - All Rights Reserved.
+            <br>
+            &copy; Copyright 2015 Sporting Charts All Rights Reserved. 
+            <br>
+            &copy; Copyright 2015 STATS LLC. All Rights Reserved.
+            <br>
+            &copy; Copyright 2017 Clios.Com
+            <br>
+            &copy; Copyright 2017 MLB Advanced Media, LP. All rights reserved.
+
+        </footer>
+        
+        
+    </div>
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+</html>
